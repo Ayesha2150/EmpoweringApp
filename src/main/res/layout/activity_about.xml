@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001f3f"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- About Us Header -->
+        <TextView
+            android:id="@+id/tvAboutHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:text="About Us"
+            android:textColor="#ffd700"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <!-- About Us Description -->
+        <TextView
+            android:id="@+id/tvAboutText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="24dp"
+            android:text="Empowering The Nation is an educational initiative dedicated to providing accessible and practical learning opportunities. Our mission is to empower individuals through skills-based training that improves career readiness, personal development, and employment opportunities."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <!-- Six-Month Courses Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/agbalumo"
+            android:paddingBottom="12dp"
+            android:text="Six-Month Courses"
+            android:textColor="#ffd700"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <!-- First Aid -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#F0F0F0"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="First Aid"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provide first aid awareness and basic life support."
+                android:textColor="#333333"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Sewing -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#F0F0F0"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="Sewing"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To provide alterations and new garment tailoring services."
+                android:textColor="#333333"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- Landscaping -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#F0F0F0"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="Landscaping"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To provide landscaping services for new and established gardens."
+                android:textColor="#333333"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- Life Skills -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="#F0F0F0"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="Life Skills"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To provide skills to navigate basic life necessities."
+                android:textColor="#333333"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- Six-Week Courses Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/agbalumo"
+            android:paddingBottom="12dp"
+            android:text="Six-Week Courses"
+            android:textColor="#FFd700"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <!-- Child Minding -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#F0F0F0"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="Child Minding"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To provide basic child and baby care."
+                android:textColor="#333333"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- Cooking -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#F0F0F0"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="Cooking"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To prepare and cook nutritious family meals."
+                android:textColor="#333333"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- Garden Maintenance -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="#F0F0F0"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="Garden Maintenance"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To provide basic knowledge of watering, pruning, and planting in domestic gardens."
+                android:textColor="#333333"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/btnBackHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#1E88E5"
+            android:backgroundTint="#FFB300"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="12dp"
+            android:text="Back to Home"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</ScrollView>

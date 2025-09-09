@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
+
+    <!-- App Logo -->
+    <!-- replace with your logo -->
+    android:contentDescription="App Logo"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- App Name -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="152dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/enroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Empowering The Nation"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgLogo"
+        tools:ignore="HardcodedText" />
+
+    <!-- About Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAbout"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="24dp"
+        android:text="About Us"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#001f3f"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAppName"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvAboutDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Learn more about our mission and vision."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/btnAbout"
+        app:layout_constraintStart_toStartOf="@id/btnAbout"
+        app:layout_constraintTop_toBottomOf="@id/btnAbout"
+        tools:ignore="HardcodedText" />
+
+    <!-- Contact Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnContact"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:text="Contact"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#001f3f"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAboutDesc"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvContactDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Get in touch with us via email, phone, or social media."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/btnContact"
+        app:layout_constraintStart_toStartOf="@id/btnContact"
+        app:layout_constraintTop_toBottomOf="@id/btnContact"
+        tools:ignore="HardcodedText" />
+
+    <!-- Courses Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCourses"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:text="Courses"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#001f3f"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvContactDesc"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvCoursesDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="View all available six-week and six-month courses."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/btnCourses"
+        app:layout_constraintStart_toStartOf="@id/btnCourses"
+        app:layout_constraintTop_toBottomOf="@id/btnCourses"
+        tools:ignore="HardcodedText" />
+
+    <!-- Enroll Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEnroll"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:text="Enroll"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#001f3f"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCoursesDesc"
+        tools:ignore="HardcodedText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
