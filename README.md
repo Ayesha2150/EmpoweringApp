@@ -36,6 +36,6 @@ Project Structure
 - EnrollActivity.kt – Enrollment form  
 - ContactActivity.kt – Contact information
 
-  Conclusion
-  The App has a clean design and enhances user experience 
+Conclusion
+  The App has a clean design and enhances user experience allowing the user to enhance their skills and more using the app 
   
